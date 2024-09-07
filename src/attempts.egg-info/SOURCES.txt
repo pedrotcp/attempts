@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/attempts/__init__.py
+src/attempts/main.py
+src/attempts.egg-info/PKG-INFO
+src/attempts.egg-info/SOURCES.txt
+src/attempts.egg-info/dependency_links.txt
+src/attempts.egg-info/top_level.txt
