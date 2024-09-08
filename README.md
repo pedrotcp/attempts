@@ -7,12 +7,12 @@
     ╚═╝  ╚═╝╚═╝╚═╝╚═╝   ╚═╝╚═╝╚══════╝╚═╝╚═╝     ╚═╝╚═╝╚═╝╚═╝     ╚═╝╚═╝╚══════╝╚═╝    
 
 
-# 𝗔dd 𝗧imestamps 𝗧o 𝗘ach one of 𝗠y 𝗣rint statemen𝗧𝗦
+# ATTEMPTS - 𝗔dd 𝗧imestamps 𝗧o 𝗘ach one of 𝗠y 𝗣rint statemen𝗧𝗦
 
 A very simple yet customizable Python package to add timestamps to your print statements.
 
 It supports replacing the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()".  
-You can also choose to use different colors on your timestamp.
+You can also choose to use different colors for your timestamps.
 
 
 
@@ -28,7 +28,7 @@ To install, run
 
 Import the package and initialize with init(). 
 
-The only required parameter is 'replace_print'. 
+The only mandatory parameter is 'replace_print'. 
 
 ```python
   import attempts
@@ -51,6 +51,8 @@ The only required parameter is 'replace_print'.
 Basic demo:  
 ![demo gif](https://raw.githubusercontent.com/pedrotcp/attempts/main/img/1.gif)
 
+Color Demo:
+
 ## Parameters
 
 
@@ -59,21 +61,25 @@ Basic demo:
 The only mandatory parameter. 
 If set to False, will not replace the default 'print()'.  
 Instead, you'll need to use 'printt()' to output timestamped messages.  
+
 If set to True, will replace all calls of 'print()' with the timestamped version.
 
 #### timestamp_start: str
 
 The character at the start of the timestamp.   
+
 Default: '[' - Square Bracket
 
 #### timestamp_end: str
 
 The character at the end of the timestamp.   
+
 Default: ']' - Square Bracket
 
 #### timestamp_format: str
 
 A string containing the format of the timestamp. It uses any strings formats accepted by the strftime() method.  
+
 Default: '%H:%M:%S.%f' - Hours, minutes, seconds and microseconds.
 
 Available Codes:
@@ -141,7 +147,6 @@ LIGHTYELLOW_EX
 
 
 ## ROADMAP
-- Add option to choose timestamp color
 - Add option to benchmark using a key and output time delta
 - Add option to store timestamps in memory, given a variable limit, to optmize memory usage
 - Add option to output a formatted table with outputs 
