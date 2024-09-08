@@ -11,7 +11,9 @@
 
 A very simple yet customizable package to add timestamps to your print statements.
 
-You can replace the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()"
+It supports replacing the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()".
+You can also choose to use different colors on your timestamp.
+
 
 
 ## Installation
@@ -46,8 +48,8 @@ The only required parameter is 'replace_print'.
 
 ## Demo
 
-Basic demo:
-
+Basic demo:  
+![demo gif](https://raw.githubusercontent.com/pedrotcp/attempts/main/img/1.gif)
 
 ## Parameters
 
@@ -134,6 +136,7 @@ LIGHTRED_EX
 LIGHTWHITE_EX  
 LIGHTYELLOW_EX  
 
+![color table](https://raw.githubusercontent.com/pedrotcp/attempts/main/img/colors.png)
 
 
 ## ROADMAP
