@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
 name='attempts',
-version='0.2.1',
+version='0.2.2',
 author='Pedro Henrique Bezerra',
 author_email='pedrotcp@gmail.com',
 description='A simple yet customizable Python package to automatically replace your print statements with timestamped versions.',
