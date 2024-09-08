@@ -20,9 +20,14 @@ install_requires=[
 "colorama>=0.4.4",  # Add colorama as a requirement
 ],
 classifiers=[
+'Development Status :: 4 - Beta',
+'Intended Audience :: Developers',
+'Topic :: System :: Logging',
+'Environment :: Console',
 'Programming Language :: Python :: 3',
 'License :: OSI Approved :: MIT License',
 'Operating System :: OS Independent',
+'Natural Language :: English',
 ],
 python_requires='>=3.6',
 )
