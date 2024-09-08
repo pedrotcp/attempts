@@ -7,10 +7,10 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
 name='attempts',
-version='0.2',
+version='0.2.1',
 author='Pedro Henrique Bezerra',
 author_email='pedrotcp@gmail.com',
-description='A very simple yet customizable package to add timestamps to your print statements.',
+description='A very simple yet customizable Python package to add timestamps to your print statements.',
 long_description=long_description,
 long_description_content_type='text/markdown',
 url='https://github.com/pedrotcp/attempts',

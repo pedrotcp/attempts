@@ -11,7 +11,7 @@
 
 A very simple yet customizable Python package to add timestamps to your print statements.
 
-It supports replacing the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()".
+It supports replacing the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()".  
 You can also choose to use different colors on your timestamp.
 
 
@@ -57,7 +57,8 @@ Basic demo:
 #### replace_print: bool
 
 The only mandatory parameter. 
-If set to False, will not replace the default 'print()'. Instead, you'll need to use 'printt()' to output timestamped messages.  
+If set to False, will not replace the default 'print()'.  
+Instead, you'll need to use 'printt()' to output timestamped messages.  
 If set to True, will replace all calls of 'print()' with the timestamped version.
 
 #### timestamp_start: str
