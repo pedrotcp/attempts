@@ -6,7 +6,7 @@ attempts_instance = None
 default_timestamp_start = "["
 default_timestamp_end = "]"
 default_timestamp_format = "%H:%M:%S.%f"
-default_timestamp_color = "WHITE"
+default_timestamp_color = "GREEN"
 
 
 class Attempts:

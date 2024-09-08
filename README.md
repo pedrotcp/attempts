@@ -9,7 +9,7 @@
 
 # ATTEMPTS - 𝗔dd 𝗧imestamps 𝗧o 𝗘ach one of 𝗠y 𝗣rint statemen𝗧𝗦
 
-A very simple yet customizable Python package to add timestamps / date and time to your print statements.
+A simple yet customizable Python package to automatically replace your print statements with timestamped versions.
 
 It supports replacing the default 'print()', keeping all of its default options, or use the built-in "printt()" command, that accepts all the same arguments as "print()".  
 You can also choose to use different colors for your timestamps.
