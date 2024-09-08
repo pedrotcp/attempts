@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
 name='attempts',
-version='0.1',
+version='0.2',
 author='Pedro Henrique Bezerra',
 author_email='pedrotcp@gmail.com',
 description='A very simple yet customizable package to add timestamps to your print statements.',
