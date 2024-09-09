@@ -149,7 +149,8 @@ LIGHTYELLOW_EX
 ## ROADMAP
 - Add option to benchmark using a key and output time delta
 - Add option to store timestamps in memory, given a variable limit, to optmize memory usage
-- Add option to output a formatted table with outputs 
+- Add option to output a formatted table with in-memory logged timestamps
+- Add support to timezones 
     
 ## License
 
